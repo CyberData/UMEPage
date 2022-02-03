@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to UME!
 
 <html>
     <body>
-       <h1>This is my dApp!</h1>
+       <h1>This is for the community!</h1>
       <p> Here we can set or get the mood: </p>
       <label for="mood">Input Mood:</label> <br>
       <input type="text" id="mood">
@@ -15,9 +15,8 @@
       <script charset="utf-8"
         src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
         type="text/javascript">
- </script>
+      
 
-<script
         window.ethereum.enable();
         var provider = new ethers.providers.Web3Provider(web3.currentProvider,'ropsten');
         var MoodContractAddress = "<contract address>";
